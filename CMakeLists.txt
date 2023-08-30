@@ -6,7 +6,7 @@ option(MSGPACK11_BUILD_TESTS "Build unit tests" ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_library(msgpack11 msgpack11.cpp)
+add_library(msgpack11 SHARED msgpack11.cpp)
 target_include_directories(msgpack11 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_compile_options(msgpack11 PRIVATE -fno-rtti)
 if(NOT MSVC)
