@@ -2,8 +2,9 @@
 #include <array>
 #include <cassert>
 #include <cmath>
-#include <cstdlib>
+#include <cstdint>
 #include <cstdio>
+#include <cstdlib>
 #include <limits>
 #include <array>
 #include <tuple>
